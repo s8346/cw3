@@ -1,0 +1,12 @@
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
