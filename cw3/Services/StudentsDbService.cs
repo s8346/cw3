@@ -30,7 +30,7 @@ namespace cw3.Services
         /*
         public EnrollStudentResponse EnrollStudent(EnrollStudentRequest request)
         {
-            using (SqlConnection connection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (SqlConnection connection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             {
                 using (SqlCommand command = new SqlCommand())
                 {
@@ -177,7 +177,7 @@ namespace cw3.Services
         public Enrollment PromoteStudents(int semester, string studiesName)
         {
             var enrollment = new Enrollment();
-            using (var connection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (var connection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             {
                 using (var command = new SqlCommand())
                 {
@@ -306,7 +306,7 @@ namespace cw3.Services
         public bool CheckIndex(string IndexNumber)
         {
             int id = int.Parse(IndexNumber);
-            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             using (SqlCommand command = new SqlCommand())
             {
                 command.Connection = client;

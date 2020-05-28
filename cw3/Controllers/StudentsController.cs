@@ -52,7 +52,7 @@ namespace cw3.Controllers
         public IActionResult GetStudents([FromServices]IDbService dbService)
         {
             var listOfStudents = new List<Models.Student>();
-            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             {
                 using (SqlCommand command = new SqlCommand())
                 {
@@ -93,7 +93,7 @@ namespace cw3.Controllers
         public IActionResult getStudent(string IndexNumber)
         {
             int id = int.Parse(IndexNumber);
-            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             using (SqlCommand command = new SqlCommand())
             {
                 command.Connection = client;
@@ -121,7 +121,7 @@ namespace cw3.Controllers
         public IActionResult getSemester(string indexNumber, int semester)
         {
             int id = int.Parse(indexNumber);
-            using (SqlConnection con = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (SqlConnection con = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             using (SqlCommand com = new SqlCommand())
             {
                 com.Connection = con;

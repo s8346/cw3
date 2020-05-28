@@ -24,7 +24,7 @@ namespace cw3.ModelsNew
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'");
+                optionsBuilder.UseSqlServer("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True");
             }
         }
 

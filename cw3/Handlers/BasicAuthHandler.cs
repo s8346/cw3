@@ -40,7 +40,7 @@ namespace AuthenticationSampleWebApp.Handlers
             if (credentials.Length != 2)
                 return AuthenticateResult.Fail("Incorrect authorization header value");
 
-            using (var sqlConnection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;User ID=apbds8346;Password=admin'"))
+            using (var sqlConnection = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             using (var command = new SqlCommand())
             {
                 sqlConnection.Open();
