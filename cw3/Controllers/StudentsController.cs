@@ -14,6 +14,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.Extensions.Configuration;
 using cw3.Services;
 using cw3.ModelsNew;
+using System.Diagnostics;
 
 namespace cw3.Controllers
 {
@@ -93,13 +94,14 @@ namespace cw3.Controllers
         public IActionResult getStudent(string IndexNumber)
         {
             int id = int.Parse(IndexNumber);
+            Debug.WriteLine("My debug string here");
             using (SqlConnection client = new SqlConnection("Data Source=10.1.1.36; Initial Catalog=s8346;Integrated Security=True"))
             using (SqlCommand command = new SqlCommand())
             {
                 command.Connection = client;
                 command.CommandText = " select IndexNumber, FirstName, LastName, BirthDate, IdEnrollment from Student where IndexNumber=@id";
                 command.Parameters.AddWithValue("id", id);
-
+                
                 client.Open();
                 SqlDataReader SqlDataReader = command.ExecuteReader();
                 if (SqlDataReader.Read())
@@ -109,7 +111,7 @@ namespace cw3.Controllers
                     student.FirstName = SqlDataReader["FirstName"].ToString();
                     student.LastName = SqlDataReader["LastName"].ToString();
                     student.BirthDate = DateTime.Parse(SqlDataReader["BirthDate"].ToString());
-                    student.IdEnrollment = int.Parse(SqlDataReader["IdEnrollment"].ToString());
+                    student.IdEnrollment = int.Parse(SqlDataReader["IdEnrollment"].ToString());                    
                     return Ok(student);
                 }
                 return NotFound("Nie znaleziono studenta");

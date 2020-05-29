@@ -34,3 +34,255 @@ Metoda: POST ścieżka: /
 body: brak
  queryString: brak
 
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /Index/1234
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /Index/1234
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /action=Index/1234
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /Home/1234
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /Home/Index
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: //api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /favicon.ico
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /api/student/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/student/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/student/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/student/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: ?Index=8346
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: ?Index=8346
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: ?Index=8346
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: POST ścieżka: /api/students/1
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/8346
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/8346
+body: brak
+ queryString: brak
+
+Metoda: GET ścieżka: /api/students/8346
+body: brak
+ queryString: brak
+
